@@ -1,0 +1,75 @@
+header {
+    background-image: url("Sunset.jpeg");
+    text-align: center;
+    border-radius: 25px;
+    padding: 20px;
+    width: 95%;
+    height: 150px;
+}
+h1 {
+    text-align: left;
+    color: black;
+}
+p {
+    text-align: left;
+    color: red;
+
+}
+ul {
+    text-align: right;
+}
+li {
+    display: inline;
+}
+body {
+    background-color: aquamarine;
+    background-image: url(Background.jpg);
+}
+
+#about {
+    margin: 45px;
+    padding: 30px;
+    width: 80%;
+    height: 50%;
+    border-radius: 25px;
+    background-color: rgba(235, 228, 228, 0.904);
+    box-shadow: 0px 0px 5px 0px #ccc;
+}
+
+#projects {
+    margin: 45px;
+    padding: 30px;
+    width: 80%;
+    height: 100%;
+    border-radius: 25px;
+    background-color: rgba(235, 228, 228, 0.904);
+    box-shadow: 0px 0px 5px 0px #ccc;
+}
+
+#skills {
+    margin: 45px;
+    padding: 30px;
+    width: 80%;
+    height: 100%;
+    border-radius: 25px;
+    background-color: rgba(235, 228, 228, 0.904);
+    box-shadow: 0px 0px 5px 0px #ccc;
+    display: inline-flexbox;
+    text-align: center;
+    list-style: none;
+
+}
+#contact {
+    margin: 45px;
+    padding: 30px;
+    width: 80%;
+    height: 50%;
+    border-radius: 25px;
+    background-color: rgba(235, 228, 228, 0.904);
+    box-shadow: 0px 0px 5px 0px #ccc;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+  }

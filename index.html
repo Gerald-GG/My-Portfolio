@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Gerald Gicharu</h1>
+        <p>Software Engineer</p>
+    
+    <!-- the nav bar -->
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#project">Project</a></li>
+        </ul>
+    </nav>
+
+     </header>
+<!-- The About Section -->
+    <section id="about">
+        <h2>About</h2>
+        <h3 style="color: black;"><i><b>My name is Gerald, a recent graduate from Murang'a University.<br>
+         I pursued A Bachelors degree In Computer Science, from the Year 2019 to Year 2023.<br>
+         I am a recent graduate where after my graduation, I majored in the field of Network Engineering where I pursued Cisco.<br>
+         Pursuing Cisco helped me gain knowledge in networking and sharpen my networking skills.</b></i></h3>
+    </section>
+
+    <!-- The Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <ol>
+            <li>
+                <h3>Face Recognition Attendance system</h3>
+                <img src="face-rec.jpg" alt="Face Recognition System">
+                <p style="color: black;">I developed this project using python programming language.<br>
+                 This project was inspired by a biometric system that I observed in Pioneer University.<br>
+                 The biometric system records and stores collected students data. <br>
+                 This data included time-stamps for students recorded as they entered the lecturehalls.<br>
+                 I developed The Face Recognition System that did not only record students time attendance stamps,<br>
+                 but also records the total attendance for each student.<br>
+                 The overall attendance for the students per lecture-hall is recorded and stored in excell sheets. <br>
+                These daily excellsheets are sent attomatically to the lecturer, the Chair of Department, <br>
+                Deen of Students and Registrar.</p>
+            </li>
+
+            <li>
+                <h3>Weather Prediction App</h3>
+                <img src="weather-forecast-app.jpg" alt="Weather-Foecast-Applocation">
+                <p style="color: black;">I builded this app to gather real-time weather data, processing it and presenting it in a user friendly way.<br>
+                 I used an API that was reliable for collecting data.<br>
+                 The data included, humidity, temperature, wind speed, rain and more.<br>
+                 I developed the app to be location based forecast, meaning, that it provided weather forecast for user's current location,<br>
+                  and it allowed users to search for weather information in other locations.<br> </p>
+            </li>
+        </ol>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <p style="color: black;">Over time, I gained several skills and I am still learning: <br></p>
+        <ol>
+            <li>Programming Languages</li>
+            <ul>
+                <li>JavaScript,</li>
+                <li>Python,</li>
+                <li>C++,</li>
+            </ul>
+    
+            <li>Web Development</li>
+            <ul>
+                <li>HTML,</li>
+                <li>CSS,</li>
+                <li>React,</li>
+                <li>Node.js,</li>
+            </ul>
+    
+            <li>Database Management</li>
+            <ul>
+                <li>SQL</li>
+            </ul>
+
+            <li>Networking</li>
+            <ul>
+                <li>Configuration</li>
+            </ul>
+        </ol>
+
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <fieldset>
+            <label for="first-name">Enter Your First Name: <input id="first-name" type="text" required /></label>
+            <label for="last-name">Enter Your Last Name: <input id="last-name" type="text" required /></label>
+            <label for="email">Enter Your Email: <input id="email" type="email" required /></label>
+            <label for="message">Enter Message Your Message: <input id="message" type="text" required /></label>
+          </fieldset>
+          <input type="submit" value="Submit" />
+
+    </section>
+</body>
+</html>
